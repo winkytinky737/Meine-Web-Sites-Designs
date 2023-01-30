@@ -1,0 +1,660 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    background: rgb(26, 24, 24);
+    width: 100%;
+    height: 120vh;
+    position: relative;
+}
+
+.main{
+    position: absolute;
+    /* margin-top: 35px; */
+    /* margin-left: 35px; */
+    width: 23%;
+    height: 90%;
+    border: 1px solid #1a0c18c2; 
+    background:linear-gradient(#661266, hsl(300, 34%, 26%));
+}
+
+.sora{
+    justify-content: center;
+}
+
+.paratwo{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+
+.border{
+    border-bottom: 8px #eec9ebc2 dotted;
+    margin-top: 5px;
+}
+
+
+.info{
+
+    width: 23%;
+  
+
+}
+
+.info button{
+
+color:#661266;
+font-size: 17px;
+width: 280px;
+height: 40px;
+border-radius: 0 20px 20px 0;
+margin-top: 20px;
+margin-bottom: 10px;
+border: 1px solid azure;
+
+}
+
+.info ul{
+    width: 350px;
+    margin-left: 30px;
+}
+
+.info ul li{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(240, 216, 247);
+    font-family:'Gill Sans';
+    font-size:larger;
+}
+
+.lebenslauf{
+    width: 240px;
+height: 40px;
+  position: absolute;
+    text-decoration: none;
+    background: #3d063d;
+border-radius: 35px;
+color: #e2bae2;
+text-align: center;
+font-size: larger;
+padding: 12px;
+margin-top: 35px;
+margin-left: 15px;
+transition: 0.8s;
+}
+
+
+.lebenslauf:hover{
+background: whitesmoke;
+transform: scale(1.3);
+color: #3d063d;
+
+
+}
+
+.glass{ justify-items: center;
+    position: absolute;
+            width: 71%;
+            height: 67%;
+            background: rgb(255, 255, 255, 0.1);
+     margin-left: 365px;
+     margin-top: 200px;
+     border-radius: 50px;
+     
+        }
+
+
+
+
+.one{
+    
+    display: inline-block;
+        width: 155px;
+        height: 210px;
+        border-radius: 20px 0 25px 0 ;
+        box-sizing: border-box;
+        cursor: pointer;
+        
+        background-position: center;
+        background-size: cover;
+        transition: 0.5s;
+        background: #ebe7eb;
+        background-image: url(mydesign/one.png);
+       margin-left: 25px;
+       margin-top: 20px;
+    
+    }
+
+
+   .two{
+    
+       display: inline-block;
+       width: 155px;
+       height: 210px;
+         border-radius: 20px 0 25px 0 ;
+
+         box-sizing: border-box;
+         cursor: pointer;
+ 
+         
+         background-position: center;
+         background-size: cover;
+         transition: 0.5s;
+        
+         background: #e726e7;
+         background-image: url(mydesign/stars.jpg);
+         margin-left: 25px;
+         margin-top: 20px;}
+    
+
+
+
+   .three{
+ 
+    display: inline-block;
+    width: 155px;
+    height: 210px;
+             border-radius: 20px 0 25px 0 ;
+         
+             box-sizing: border-box;
+             cursor: pointer;
+     
+             
+             background-position: center;
+             background-size: cover;
+             transition: 0.5s;
+             background: #130513;
+             background-image: url(mydesign/gray.jpg);
+             margin-left: 25px;
+             margin-top: 20px;
+             
+           }
+
+
+
+     .four{ 
+        display: inline-block;
+        width: 155px;
+        height: 210px;
+
+                 border-radius: 20px 0 25px 0 ;
+          
+                 box-sizing: border-box;
+                 cursor: pointer;
+         
+            
+                 background-position: center;
+                 background-size: cover;
+                 transition: 0.5s;
+                 background: #ebe7eb;
+                      background-image: url(mydesign/books_255x350.jpg);
+                 margin-left: 25px;
+                 margin-top: 20px;
+                }
+
+.five{
+    
+    display: inline-block;
+    width: 155px;
+    height: 210px;
+                
+                     border-radius: 20px 0 25px 0 ;
+                  
+                     box-sizing: border-box;
+                     cursor: pointer;
+             
+                   
+                     background-position: center;
+                     background-size: cover;
+                     transition: 0.5s;
+                     background: #81971d;
+                       background-image: url(mydesign/nineth_255x350.jpeg);
+                   margin-left: 25px; 
+                   margin-top: 20px;
+                 }
+
+
+                 .six{
+                    display: inline-block;
+                     
+                    width: 155px;
+                    height: 210px;
+                    margin-top: 30px;
+                    margin-left: 25px;
+                     border-radius: 20px 0 25px 0 ;
+                  
+                     box-sizing: border-box;
+                     cursor: pointer;
+             
+                    
+                     background-position: center;
+                     background-size: cover;
+                     transition: 0.5s;
+                     background: #48c72e;
+                      background-image: url(mydesign/seven.png);
+                     
+                 }
+
+                 .seven{
+                    display: inline-block;
+                    width: 155px;
+                    height: 210px;
+                    margin-top: 30px;
+                    margin-left: 25px;
+                
+                     border-radius: 20px 0 25px 0 ;
+                  
+                     box-sizing: border-box;
+                     cursor: pointer;
+             
+                     
+                     background-position: center;
+                     background-size: cover;
+                     transition: 0.5s;
+                     background: #6b82b3;
+                     background-image: url(mydesign/fishes.png);
+                    
+                 }
+
+                 .eight{
+                    display: inline-block;
+                    width: 155px;
+                    height: 210px;
+                    margin-top: 30px;
+                    margin-left: 25px;
+                     border-radius: 20px 0 25px 0 ;
+                  
+                     box-sizing: border-box;
+                     cursor: pointer;
+             
+                     
+                     background-position: center;
+                     background-size: cover;
+                     transition: 0.5s;
+                     background: #cec112;
+                     background-image: url(mydesign/eight.png);
+                     
+                 }
+
+                 .nine{
+                    display: inline-block;
+                    width: 155px;
+                    height: 210px;
+                    margin-top: 30px;
+                    margin-left: 25px;
+                
+                     border-radius: 20px 0 25px 0 ;
+                  
+                     box-sizing: border-box;
+                     cursor: pointer;
+             
+                    
+                     background-position: center;
+                     background-size: cover;
+                     transition: 0.5s;
+                     background: #a10b56;
+                      background-image: url(mydesign/shoes_255x350.jpg);
+                  
+                 }
+
+                 .ten{
+                    display: inline-block;
+                    width: 155px;
+                    height: 210px;
+                    margin-top: 30px;
+                    margin-left: 25px;
+                
+                     border-radius: 20px 0 25px 0 ;
+                  
+                     box-sizing: border-box;
+                     cursor: pointer;
+             
+                     
+                     background-position: center;
+                     background-size: cover;
+                     transition: 0.5s;
+                     background: #d3820a;
+                     background-image: url(mydesign/birds.png);
+                     
+                 }
+
+                 .design:hover{
+                    transform: translateY(-20px);
+                 }
+
+
+                 .glass .cards .one::after{
+                    content: attr(data-text);
+                    position: absolute;
+                    margin-left: 25px;
+                    margin-top: 20px;
+                    color: #ffffff;
+                    text-shadow: 2px 2px 4px #000000;
+                    font-size: larger;
+                    font-family: 'Lucida Sans';
+                    opacity: 0;
+                    transition: 0.3s;
+                    font-weight: 800; 
+                     
+                 }
+
+                 .glass .cards .one:hover::after{
+                    opacity: 1;
+                    letter-spacing: 5px;
+                 }
+
+                 .glass .cards .two::after{
+                    content: attr(data-text);
+                    position: absolute;
+                    margin-left: 25px;
+                     margin-top: 20px;
+                     width: 155px;
+                    color: #e2bae2;
+                    font-size: larger;
+                    font-family: 'Lucida Sans';
+                    opacity: 0;
+                    transition: 0.3s;
+                    font-weight: 800; 
+                 }
+
+                 .glass .cards .two:hover::after{
+                    opacity: 1;
+                    letter-spacing: 5px;
+                 }
+
+
+                 .glass .cards .three::after{
+                    content: attr(data-text);
+                    position: absolute;
+                    margin-left: 25px;
+                    margin-top: 20px;
+                    width: 155px;
+                    color: #ffffff;
+                    text-shadow: 2px 2px 4px #000000;
+                    font-size: larger;
+                    font-family: 'Lucida Sans';
+                    opacity: 0;
+                    transition: 0.3s;
+                    font-weight: 800; 
+                     
+                 }
+
+                 .glass .cards .three:hover::after{
+                    opacity: 1;
+                    letter-spacing: 5px;
+                 }
+
+
+                 .glass .cards .four::after{
+                    content: attr(data-text);
+                    position: absolute;
+                    margin-left: 25px;
+                    margin-top: 20px;
+                    width: 155px;
+                    color: #ffffff;
+                    text-shadow: 2px 2px 4px #000000;
+                    font-size: larger;
+                    font-family: 'Lucida Sans';
+                    opacity: 0;
+                    transition: 0.3s;
+                    font-weight: 800; 
+                     
+                 }
+
+                 .glass .cards .four:hover::after{
+                    opacity: 1;
+                    letter-spacing: 5px;
+                 }
+
+
+                 .glass .cards .five::after{
+                    content: attr(data-text);
+                    position: absolute;
+                    margin-left: 25px;
+                    margin-top: 20px;
+                    width: 155px;
+                    color: #ffffff;
+                    text-shadow: 2px 2px 4px #000000;
+                    /* font-size: larger; */
+                    text-align:justify;
+                    font-family: 'Lucida Sans';
+                    opacity: 0;
+                    transition: 0.3s;
+                    font-weight: 800; 
+                 }
+
+                 .glass .cards .five:hover::after{
+                    opacity: 1;
+                    letter-spacing: 5px;
+                    width: 155px;
+                 }
+
+
+
+                 .glass .cards .six::after{
+                    content: attr(data-text);
+                    position: absolute;
+                    margin-top: 30px;
+                    margin-left: 25px;
+                    width: 155px;
+                    color: #ffffff;
+                    text-shadow: 2px 2px 4px #000000;
+                    font-size: larger;
+                    text-align:justify;
+                    font-family: 'Lucida Sans';
+                    opacity: 0;
+                    transition: 0.3s;
+                    font-weight: 800; 
+                 }
+
+                 .glass .cards .six:hover::after{
+                    opacity: 1;
+                    letter-spacing: 5px;
+                 }
+
+
+                 .glass .cards .seven::after{
+                    content: attr(data-text);
+                    position: absolute;
+                    margin-top: 30px;
+                    margin-left: 25px;
+                    width: 155px;
+                    color: #ffffff;
+                    text-shadow: 2px 2px 4px #000000;
+                    font-size: larger;
+                    text-align:justify;
+                    font-family: 'Lucida Sans';
+                    opacity: 0;
+                    transition: 0.3s;
+                    font-weight: 800; 
+                 }
+
+                 .glass .cards .seven:hover::after{
+                    opacity: 1;
+                    letter-spacing: 5px;
+                 }
+
+
+                 .glass .cards .eight::after{
+                    content: attr(data-text);
+                    position: absolute;
+                    margin-top: 30px;
+                    margin-left: 25px;
+                    width: 155px;
+                    color: #ffffff;
+                    text-shadow: 2px 2px 4px #000000;
+                    font-size: larger;
+                    text-align:justify;
+                    font-family: 'Lucida Sans';
+                    opacity: 0;
+                    transition: 0.3s;
+                    font-weight: 800; 
+                 }
+
+                 .glass .cards .eight:hover::after{
+                    opacity: 1;
+                    letter-spacing: 5px;
+                 }
+
+
+                 .glass .cards .nine::after{
+                    content: attr(data-text);
+                    position: absolute;
+                    margin-top: 30px;
+                    margin-left: 25px;
+                    width: 155px;
+                    color: #ffffff;
+                    text-shadow: 2px 2px 4px #000000;
+                    font-size: larger;
+                    text-align:justify;
+                    font-family: 'Lucida Sans';
+                    opacity: 0;
+                    transition: 0.3s;
+                    font-weight: 800; 
+                 }
+
+                 .glass .cards .nine:hover::after{
+                    opacity: 1;
+                    letter-spacing: 5px;
+                 }
+
+
+                 .glass .cards .ten::after{
+                    content: attr(data-text);
+                    position: absolute;
+                    margin-top: 30px;
+                    margin-left: 25px;
+                    width: 155px;
+                    color: #ffffff;
+                    text-shadow: 2px 2px 4px #000000;
+                    font-size: larger;
+                    text-align:justify;
+                    font-family: 'Lucida Sans';
+                    opacity: 0;
+                    transition: 0.3s;
+                    font-weight: 800; 
+                 }
+
+                 .glass .cards .ten:hover::after{
+                    opacity: 1;
+                    letter-spacing: 5px;
+                 }
+
+
+
+                 
+
+                  @media (min-width:950px) and (max-width:1150px){.main{
+                     position: absolute;
+                     /* margin-top: 35px; */
+                     /* margin-left: 35px; */
+                     width: 27%;
+                     height: 100%;
+                     border: 1px solid #1a0c18c2; 
+                     background:linear-gradient(#661266, hsl(300, 34%, 26%));
+                 }
+                 .glass{ justify-items: center;
+    position: absolute;
+            width: 71%;
+            height: 67%;
+            background: rgb(255, 255, 255, 0.1);
+     margin-left: 365px;
+     margin-top: 200px;
+     border-radius: 50px;
+     
+        }
+        .glass{ justify-items: center;
+         position: absolute;
+                 width: 65%;
+                 height: 100%;
+                 background: rgb(255, 255, 255, 0.1);
+          margin-left: 365px;
+          margin-top: 200px;
+          border-radius: 50px;
+          
+             }
+     .design{
+
+         display: inline-block;
+         width: 100px;
+         height: 150px;
+         margin-top: 30px;
+         margin-left: 25px;
+         margin-right: 10px;
+     
+   
+     }
+     .container{overflow: hidden;}
+
+  
+                     
+                  }
+
+
+
+
+
+
+
+                  @media(max-width:950px){
+                     .container{flex-direction: column; }
+                     h1{font-size: smaller;}
+                     h2{font-size: smaller;}
+                     h3{font-size: smaller;}
+                     h4{font-size: smaller;}
+                  .info{font-size: smaller;}
+                  .paratwo{font-size: smaller;}  
+
+
+
+                  .main{
+                     position: absolute;
+                     /* margin-top: 35px; */
+                     /* margin-left: 35px; */
+                     width: 10;
+                     height: 100%;
+                     border: 1px solid #1a0c18c2; 
+                     background:linear-gradient(#661266, hsl(300, 34%, 26%));
+                 }
+
+
+
+                 .glass{ justify-items: center;
+    position: absolute;
+            width: 30%;
+            height: 40%;
+            background: rgb(255, 255, 255, 0.1);
+     margin-left: 365px;
+     margin-top: 200px;
+     border-radius: 50px;
+     
+        }
+        .glass{ justify-items: center;
+         position: absolute;
+                 width: 40%;
+                 height: 30%;
+                 background: rgb(255, 255, 255, 0.1);
+          margin-left: 365px;
+          margin-top: 200px;
+          border-radius: 50px;
+          
+             }
+     .design{
+
+         display: inline-block;
+         width: 50px;
+         height: 70px;
+         margin-top: 30px;
+         margin-left: 25px;
+         margin-right: 10px;
+     
+   
+     }
+     .container{overflow: hidden;}                 
+
+
+                  
+                  }

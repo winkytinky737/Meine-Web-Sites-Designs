@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    background: url(Natur.jpeg);
+    background: linear-gradient(at top, rgba(0, 0, 0, 0.5))50%, rgba(0, 0, 0, 0.5)50%,url(Natur.jpeg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 112vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+
+.logo{
+    font-size: 40px;
+    color: orangered;
+    font-family: Arial;
+    float: left;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.menu{
+width: 700px;
+height: 70px;
+float: left;
+}
+
+ul{
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 15px;
+}
+
+ul li a {
+text-decoration: none;
+color: azure;
+font-family: Arial;
+font-weight: bold;
+transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover{
+    color: orangered;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+    
+}
+
+.src{
+    font-family: Arial;
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid orangered;
+    margin-top: 20px;
+    color: azure;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.btn{
+    background: orangered;
+    width: 100px;
+    height: 30px;
+    border: 1px solid orangered;
+    margin-top: 20px;
+    color: azure;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.src:focus{
+    outline: none;
+}
+
+.content{
+width: 1200px;
+height: auto;
+margin: auto;
+position: relative;
+
+}
+
+.content .para{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    line-height: 30px;
+    letter-spacing: 1.3px;
+    color: azure;
+    font-family: Arial;
+}
+
+.content h1{
+    font-size: 50px;
+color: azure;
+font-family: 'Times New Roman';
+padding-left: 20px;
+margin-top: 10px;
+letter-spacing: 2px;
+}
+
+.content .btnn{
+    width: 160px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.content .btnn a{
+    text-decoration: none;
+    color:black;
+}
+
+.content .btnn:hover{
+
+    
+    background:rgb(255, 255, 255) ;
+}
+
+.content .btnn a:hover{
+    color: rgb(231, 88, 21);
+}
+
+.content span{
+    color: orangered;
+    font-size: 60px;
+    font-family: 'Lucida Sans';
+}
+
+
+.form{
+    justify-content: center;
+    width: 280px;
+    height: 380px;
+    position: absolute;
+    top:-20px;
+    left: 890px;
+    padding: 15px;
+    border-radius: 25px 0 25px 0;
+    background: linear-gradient(#575555,#0c0c0c );
+    border: 1px solid orangered;
+}
+
+.form h2{
+    width: 230px ;
+    font-family:Arial, Helvetica, sans-serif;
+    color: orangered;
+    font-size: 25px;
+    background-color: azure;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+.form input{
+    padding-left: 30px;
+    width: 230px;
+    background: transparent;
+    height: 30px;
+    color: azure;
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family:sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.btnnn{
+   
+    width: 260px;
+    height: 30px;
+    background: orangered;
+    font-size: 15px;
+    font-family: 'Lucida Sans';
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 15px;
+}
+
+.btnnn a{
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.yet{
+    font-family:Arial, Helvetica, sans-serif;
+    size: 15px;
+    margin-top: 40px;
+    color: azure;
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color: orangered;
+  
+    transition: 1s;
+    padding-left: 110px;
+  
+    font-size: 18px;
+
+    
+}
+
+.link:hover{
+    color: rgb(253, 241, 236);
+}

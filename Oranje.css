@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+background: linear-gradient(#ffff00 , rgba(255, 72, 0, 0.945));
+height: 120vh;
+position: relative;
+
+
+}
+
+
+/* body::after{content: "";
+    overflow: visible;
+    position: absolute;
+    justify-content: center;
+    height:800px;
+    width: 800px;
+    border-radius: 50%;
+    background:rgba(255, 60, 0, 0.938) ;
+    margin-top: -250px;
+    margin-left: 250px;
+    z-index: 10;
+ 
+
+} */
+
+.title{
+
+ position: relative;
+   
+   
+}
+
+
+
+nav{
+  
+   margin-right: 150px;
+}
+
+
+ nav ul li{
+    display: inline;
+    margin-right: 30px;
+    margin-top: 70px;
+    float:right;
+    list-style: none;
+ }
+
+
+ nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 165, 0);
+    font-size: 20px;
+    transition: 1s;
+ }
+
+ nav ul li a:hover{
+   
+   transform: scale (1.5); width: 500px;
+color: red;
+
+
+ }
+
+ .glasscover{
+   display: flex;
+    width: 75%;
+    height: 90%;
+    justify-content: center;
+    background:rgb(255, 255, 255,0.1);
+   
+    border-radius: 30px;
+    margin-left: 150px;
+    margin-top:75px;
+opacity: 0.9;
+
+    
+ }
+
+ .forma{
+    width: 60%;
+    height: 85%;
+    justify-content: center;
+   
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 65px;
+    border-radius: 20px;
+
+ }
+
+ form{
+margin-top: 20px;
+margin-left: 40px;
+
+ }
+
+ .mandrin{
+   float: right;
+   margin-top: -280px
+    ; margin-right: 50px;
+ }
+
+ .button{
+   position: relative;
+   justify-content: center;
+   align-items: center;
+
+ }
+
+ @media (min-width:950px) and (max-width:1150px){
+
+   body{flex-direction: column;}
+
+nav{flex-direction: column;}
+
+}
+
+
+@media (max-width:950px) and (max-width:1150px){
+
+ 
+
+body{flex-direction: column;}
+nav{flex-direction: column;}
+}
